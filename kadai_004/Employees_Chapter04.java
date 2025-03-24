@@ -28,7 +28,7 @@ public class Employees_Chapter04 {
 	            		CREATE TABLE users (
 	            		 id INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
 	            		 name VARCHAR(60) NOT NULL,
-	            		 email VARCHAR(60)NOT NULL,
+	            		 email VARCHAR(255)NOT NULL,
 	            		 age INT(11),
 	            		 address VARCHAR(255)
 	            		 );
